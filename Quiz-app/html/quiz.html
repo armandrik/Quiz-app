@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="../sass/quiz.css">
+    <script src="https://kit.fontawesome.com/a4e95c8d4d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="header">
+            <h2 id="question">question text</h2>
+            <div class="timer-container">
+                <i class="fas fa-hourglass-half"></i>
+                <h3 id="seconds">60</h3>
+            </div>
+        </div>
+        <div class="answer-conainer">
+            <ul>
+                <li>
+                    <input type="radio" id="a" name="answer" class="answer">
+                    <label for="a" id="a_text">answer 1</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answer">
+                    <label for="b" id="b_text">answer 2</label></li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answer">
+                    <label for="c" id="c_text">answer 3</label></li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answer">
+                    <label for="d" id="d_text">answer 4</label></li>
+            </ul>
+        </div>
+        <div class="button-container">
+            <button id="submit">NEXT <i class="fas fa-long-arrow-alt-right"></i></button>
+        </div>
+    </div>
+</body>
+<script src="../JS/quiz.js"></script>
+
+</html>
